@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CloudNotesBSC</string>
+    <string name="save">Сохранить</string>
+    <string name="note_et_hint">Введите свою заметку здесь...</string>
+    <string name="snackbar_success_save_note">Заметка успешно сохранена</string>
+    <string name="snackbar_loading_save_note">Сохраняется...</string>
+</resources>
