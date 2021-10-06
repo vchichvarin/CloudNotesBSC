@@ -8,7 +8,7 @@ import com.vchichvarin.cloudnotesbsc.R
 import com.vchichvarin.cloudnotesbsc.databinding.ActivityAboutBinding
 
 class AboutActivity : AppCompatActivity() {
-/*
+
     private lateinit var binding: ActivityAboutBinding
 
     private lateinit var noteText : String
@@ -36,5 +36,4 @@ class AboutActivity : AppCompatActivity() {
             }
         }
     }
-*/
 }

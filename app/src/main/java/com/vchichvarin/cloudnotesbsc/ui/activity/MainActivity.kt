@@ -48,13 +48,13 @@ class MainActivity : AppCompatActivity() {
             save.setOnClickListener {
                 viewModel.saveNote(binding.edittext.text.toString())
             }
-            /*about.setOnClickListener {
+            about.setOnClickListener {
                 val intent = Intent(this@MainActivity, AboutActivity::class.java)
                 val bundle = Bundle()
                 bundle.putString("noteText", binding.edittext.text.toString())
                 intent.putExtras(bundle)
                 startActivity(intent)
-            }*/
+            }
         }
 
     }
