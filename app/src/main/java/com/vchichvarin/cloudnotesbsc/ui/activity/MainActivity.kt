@@ -1,5 +1,6 @@
 package com.vchichvarin.cloudnotesbsc.ui.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
@@ -43,9 +44,17 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         })
-
-        binding.save.setOnClickListener {
-            viewModel.saveNote(binding.edittext.text.toString())
+        with (binding) {
+            save.setOnClickListener {
+                viewModel.saveNote(binding.edittext.text.toString())
+            }
+            about.setOnClickListener {
+                val intent = Intent(this@MainActivity, AboutActivity::class.java)
+                val bundle = Bundle()
+                bundle.putString("noteText", binding.edittext.text.toString())
+                intent.putExtras(bundle)
+                startActivity(intent)
+            }
         }
 
     }

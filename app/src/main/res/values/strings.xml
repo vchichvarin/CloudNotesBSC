@@ -4,4 +4,10 @@
     <string name="note_et_hint">Введите свою заметку здесь...</string>
     <string name="snackbar_success_save_note">Заметка успешно сохранена</string>
     <string name="snackbar_loading_save_note">Сохраняется...</string>
+    <string name="about">Подробнее</string>
+    <string name="back">Назад</string>
+    <string name="share">Поделиться</string>
+    <string name="share_by">Поделиться с помощью</string>
+    <string name="share_message">Создано при помощи приложения CloudNotesBSC</string>
+    <string name="share_subject">Поделиться заметкой</string>
 </resources>
